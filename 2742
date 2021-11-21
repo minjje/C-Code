@@ -1,0 +1,11 @@
+//기찍 N
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+int main(void) {
+	int N, i;
+	scanf("%d", &N);
+		for (i =0; i< N; i+=1) {
+			printf("%d\n", N-i);
+		}
+	return 0;
+}
